@@ -12,7 +12,7 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/formatter_ex_lib formatter_ex_lib_d
 add_library(solver_lib ${CMAKE_CURRENT_SOURCE_DIR}/solver_lib/solver.cpp)
 add_executable(solver ${CMAKE_CURRENT_SOURCE_DIR}/solver_application/equation.cpp)
 
-target_include_directories(formatter_ex_lib PUBLIC
+target_include_directories(${CMAKE_CURRENT_SOURCE_DIR}/formatter_ex_lib PUBLIC
 ${CMAKE_CURRENT_SOURCE_DIR}/formatter_lib
 ${CMAKE_CURRENT_SOURCE_DIR}/formatter_ex_lib
 ${CMAKE_CURRENT_SOURCE_DIR}/solver_lib
