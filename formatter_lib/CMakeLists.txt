@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
 project(formatter_lib)
 if (NOT TARGET formatter)
-    add_library(formatter STATIC formatter.cpp)
+    add_library(formatter STATIC ${CMAKE_CURRENT_SOURCE_DIR}/formatter.cpp)
 endif()
