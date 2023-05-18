@@ -1,6 +1,4 @@
-1  git push
-    2  sudo apt install git
-    3  git push
+
     4  git clone
     5  git status
     6  export GITHUB_USERNAME=<magistrmittil>
